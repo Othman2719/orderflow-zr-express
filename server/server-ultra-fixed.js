@@ -25,7 +25,7 @@ app.use(express.json());
 // Zr Express API configuration
 const ZR_EXPRESS_CONFIG = {
   baseURL: 'https://procolis.com/api_v1',
-  token: process.env.ZR_TOKEN || '758aac85305a8379120949f780630b395905e287f8abe9e84cfab5d2c8074488',
+  token: process.env.ZR_TOKEN || 'ba0944108902044c2db381d57bcc8aff4cd3d621576893990e3c44e46541ee2c',
   apiKey: process.env.ZR_API_KEY || 'a98b913516104f8bb17e7c51f2c88ba1'
 };
 
@@ -449,8 +449,7 @@ app.post('/api/webhook/order-updated', async (req, res) => {
       }
     });
     
-    console.log('✅ Orders successfully sent to ZR Express via webhook');
-    
+b    
     res.json({
       success: true,
       message: 'Order update received and sent to ZR Express successfully',

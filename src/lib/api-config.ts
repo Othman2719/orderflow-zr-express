@@ -10,7 +10,7 @@ const BACKEND_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/
 
 // Default API configuration
 const defaultConfig: ApiConfig = {
-  token: "758aac85305a8379120949f780630b395905e287f8abe9e84cfab5d2c8074488",
+  token: "ba0944108902044c2db381d57bcc8aff4cd3d621576893990e3c44e46541ee2c",
   apiKey: "a98b913516104f8bb17e7c51f2c88ba1",
   baseUrl: "https://procolis.com/api_v1"
 };
